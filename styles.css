@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+  }
+  .parent:first-of-type {
+    background: #ffffff url("https://idsb.tmgrup.com.tr/ly/uploads/images/2020/11/11/thumbs/800x531/71382.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent:nth-of-type(2) {
+    background: #ffffff url("https://i.hurimg.com/i/hdn/75/0x0/600fb2ead3806c57e494ed98.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent:nth-of-type(3) {
+    background: #ffffff url("https://tranquil-home-great-for-family-or-corporate-retreats.booked.net/data/Photos/OriginalPhoto/11942/1194256/1194256000/Tranquil-Home-Great-For-Family-Or-Corporate-Retreats-Home-Park-City-Exterior.JPEG") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent:nth-of-type(4) {
+    background: #ffffff url("https://www.oyorooms.com/blog/wp-content/uploads/2017/12/pexels-photo-287240.jpeg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent:last-of-type {
+    background: #ffffff url("https://p1.pxfuel.com/preview/315/220/850/attar-perfume-oil-dark.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .parent {
+    width: 100%;
+    height: 150vh;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    font-family: serif;
+    text-align: center;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+  }
+  .parent p {
+    padding: 15px;
+  }
